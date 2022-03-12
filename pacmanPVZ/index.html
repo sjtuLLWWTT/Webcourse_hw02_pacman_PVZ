@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript"src="Map.js"></script>
+  <title>lwt- 吃豆人</title>
+  <link rel="stylesheet" type="text/css" href="css/hw2.css" />
+  <style>  h2:hover {
+    margin: 5px;
+    color: #fff;
+    /* 文字阴影 */
+    text-shadow: 0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #fff,
+                0 0 80px #fff,
+                0 0 120px #fff,
+                0 0 160px #fff;
+}</style>
+</head>
+<body class="bg">
+  <div class="container location">
+    <div class="map"></div>
+    <div class="footer">
+      <button class="button black" onclick="startGame()" id="startGame">start</button>
+      <span class="timer"></span>
+      <span class="score"></span>
+    </div>
+      <h2>
+        僵尸吃向日葵小游戏，快去吃掉所有的向日葵吧！</h2>
+        <h2>请支持cookie，则游戏难度会不断增加，到达80分即可下一关 
+    </h2>
+      <ul>
+          <li><img src="images/flower.png"> &nbsp 每个向日葵可以增加10分左右的分数</li>
+          <li><img src="images/doom.png"> &nbsp 吃到毁灭菇，游戏直接结束</li>
+          <li><img src="images/brain.png"> &nbsp 时钟可以增加您的游戏时间</li>
+          <li><img src="images/stab.png"> &nbsp 踩到地刺会扣除10分的分数</li>
+         
+      </ul>
+  </div>
+  </div>
+</body>
+</html>
